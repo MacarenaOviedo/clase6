@@ -1,0 +1,176 @@
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	font-size: 30px;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+h2{
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+}
+header{
+
+}
+.logo img{
+border-radius: 80px;
+    width: 50px;
+}
+nav{
+
+}
+nav ul li{
+	display: inline;
+	text-transform: uppercase;
+}
+nav a, footer ul a{
+	color: #333;
+	font-weight:700;
+}
+nav a:hover, footer ul a:hover{
+	color: #ff6600;
+}
+section{
+	width: 100%;
+    float: left;
+}
+.container{
+	width: 1080px;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+.banner img{
+	width: 100%;
+
+}
+.buscador{
+    width: 100%;
+    float: left;
+    margin: -35px 0 0 0;
+}
+
+.buscador form{
+    width: 50%;
+	margin: 0 auto;
+
+}
+.buscador input[type="search"]{
+    width: 80%;
+    height: 60px;
+    padding: 0 0 0 25px;
+	margin: 0 -5px 0 0;
+
+}
+.buscador  input[type="submit"]{
+	height: 60px;
+    padding: 20px;
+
+}
+/*Section 1*/
+.section1{
+
+}
+.section1{
+	text-align: center;
+}
+.section1 article{
+    width: 190px;
+
+}
+.section1 article img, .section2 article img{
+	 border-radius: 80px;
+}
+/*Section 2*/
+.section2{
+	
+}
+/*Section 3*/
+.section3, .section5{
+    padding: 150px 0;
+    background: #eee;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+/*Section 4*/
+.section4{
+text-align: center,
+	
+}
+.precio{
+border: 1px solid #999;
+padding: 30px 20px 38px 20px;
+text-align: center;
+width: 160px;
+
+
+}
+.precio b{
+	font-size: 26px;
+	display: block;
+    margin: 8px 0 15px 0;
+   	font-family: 'Raleway', sans-serif;
+}
+.titulo-precio{
+	border-bottom:1px solid #999;
+    color: #333;
+     width: 80%;
+    margin: 0 auto;
+}
+/*table{
+	margin: 15px 0;
+    width: 100%;
+}*/
+.section4 ul{
+margin: 25px 0;
+
+}
+.section4 ul li{
+    list-style: none;
+    margin: 15px 0 0 0;
+}
+.precio a{
+	color: #fff;
+	background: #333;
+    padding: 6px 16px;
+	border-radius: 3px;
+}
+.precio a:hover{
+	background: #555;
+	
+}
+/*Section 5*/
+.section5{
+
+}
+.section5 b{
+	color:#3399ff;
+}
+/*Footer*/
+footer{
+	background: #ddd;
+    clear: both;
+}
+footer ul li{
+	display: inline;;
+}
+.footer-bottom{
+    background: #eee;
+    height: 50px;	
+}
